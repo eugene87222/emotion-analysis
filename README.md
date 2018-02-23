@@ -26,8 +26,11 @@
   var = emotion.Emotion_analysis(u'我很開心，因為年終發很多')
 
   print (var.sentiments_percent())  # 情緒為 positive 的機率
+  # output: 0.905090308232772
 
   print (var.snownlp_parse_words()) # 用 snownlp 斷詞
+  # output: ['我', '很', '开心', '，', '因为', '年终', '发', '很多']
 
   print (var.jieba_parse_words())   # 用 jieba 斷詞
+  # output: ['我', '很', '開心', '，', '因為', '年終', '發', '很多']
 ```
