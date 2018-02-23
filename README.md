@@ -34,4 +34,4 @@
   print (var.jieba_parse_words())   # 用 jieba 斷詞
   # output: ['我', '很', '開心', '，', '因為', '年終', '發', '很多']
 ```
-> 註：dict.txt.big 取自 [fxsjy/jieba 结巴中文分词](https://github.com/fxsjy/jieba)(繁體字典)
+> 註：dict.txt.big 取自 [fxsjy/jieba 结巴中文分词](https://github.com/fxsjy/jieba) (繁體字典)
