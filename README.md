@@ -19,3 +19,15 @@
   pip3 install snownlp
   ```
   > 註：我用 pip install opencc 的時候出了點問題，後來到 https://pypi.python.org/pypi/opencc-python/ 下載 source code，解壓縮之後再放到 C:\Program Files (x86)\Python36-32\Lib\site-packages 下面
+## example.py
+``` python
+  import emotion
+
+  var = emotion.Emotion_analysis(u'我很開心，因為年終發很多')
+
+  print (var.sentiments_percent())  # 情緒為 positive 的機率
+
+  print (var.snownlp_parse_words()) # 用 snownlp 斷詞
+
+  print (var.jieba_parse_words())   # 用 jieba 斷詞
+```
