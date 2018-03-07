@@ -42,6 +42,8 @@
   print (var.parse_words_jieba())   # 用 jieba 斷詞
   # output: ['如果', '知道', '最後', '還是', '會', '分手', '那麼', '之前', '還會', '選擇', '在', '一起', '嗎']
 ```
-> 註：dict.txt.big 取自 [fxsjy/jieba 结巴中文分词](https://github.com/fxsjy/jieba) (繁體字典)  
-> simpleNLP.py 裡面的程式碼都是別人開發好的，我只抓出我要的拿來用  
-> 想了解更多有關 jieba, snowNLP, Baidu 自然語言處理 請到他們的官網
+> 註：dict.txt.big 取自 [fxsjy/jieba 结巴中文分词](https://github.com/fxsjy/jieba) (繁體字典)
+
+---
+simpleNLP.py 裡面的程式碼都是別人開發好的，我只抓出我要的拿來用  
+想了解更多有關 jieba, snowNLP, Baidu 自然語言處理 請到他們的官網
